@@ -1,0 +1,18 @@
+# Description
+PicoBabel is a bibliographic data management application. The objective of this project was to handle sequential and direct access files to manage data about books and their authors.
+
+# Key Features
+- Adding new authors and books.
+- Retrieving information about authors and books.
+- Storing data in binary files for permanent storage. 
+- Logging operations and handling various file I/O operations.
+
+# Classes
+- Author: Represents an author with attributes like id, name, numBooks, firstBookId, and lastBookId.
+- Book: Represents a book with attributes like id, title, authorId, and nextBookId.
+- AuthorsFile: Handles operations on the binary file storing authors.
+- BooksFile: Handles operations on the binary file storing books.
+- PicoBabel: Main class coordinating file operations and handling user requests.
+
+# Report
+For more detailed information about the implementation and design of PicoBabel, please refer to the PicoBabel Report "Informe Picababel".
