@@ -1,0 +1,19 @@
+# Project Description
+
+The objective of this project is to build an application that allows two players to play a simplified version of the well-known game of Checkers. The simplifications include:
+
+- Each turn consists of only one move or capture.
+- When a piece reaches the last row, the game ends, and that player wins.
+- Capturing is not mandatory.
+
+The project involves constructing a set of classes that implement this simplified version of the game. The system will display the board, allow valid piece selection, and indicate if the game has ended.
+
+# Key Features
+
+- Display the game board.
+- Allow selection of valid pieces and moves.
+- Indicate game termination.
+
+#Report
+
+For more detailed information about this project, including the design and implementation details, please read the report provided in the directory, "Informe Checkers.pdf".
