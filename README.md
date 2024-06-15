@@ -5,6 +5,7 @@ This repository contains Java code and projects I have completed during my unive
 
 # Table of contents
 1. Checkers project
+2. Picobable project
 
 
 # Description
