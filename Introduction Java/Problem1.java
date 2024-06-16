@@ -6,7 +6,7 @@
 
 import acm.program.CommandLineProgram;
 
-public class Problema1 extends CommandLineProgram {
+public class Problem1 extends CommandLineProgram {
 
     public void run(){
         int n;
@@ -44,7 +44,7 @@ public class Problema1 extends CommandLineProgram {
     }
 
     public static void main(String[] args) {
-        new Problema1().start(args);
+        new Problem1().start(args);
     }
 }
 
