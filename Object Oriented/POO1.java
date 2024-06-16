@@ -1,3 +1,13 @@
+//DESCRIPTION 
+
+//Create a program using the graphics libraries from the ACM package that does the following:
+
+//Draw a red filled rectangle in the center of the screen.
+//Move this rectangle from left to right so that when it reaches one of the screen's edges, it "bounces" and starts moving in the opposite direction.
+
+//This version changes the position of the rectangle using the "move" method.
+//Use constants for the values of the square size, the duration of the pause for smooth movement, the number of pixels you move at each step, etc.
+
 import acm.graphics.GRect;
 import acm.program.GraphicsProgram;
 import java.awt.Color;
