@@ -1,8 +1,15 @@
+//DESCRIPTION
 
+//Design and implement a method to multiply integer matrices. The method will receive two matrices as parameters and return another matrix as a result. That is:
+
+//    - Simplifications and hints:
+
+//  Within the function, you can assume that the matrices are of the correct dimensions (the number of columns in the left matrix must match the number of rows in the right matrix).
+//  Create a main program that creates a pair of constant matrices (ensure that they are of the correct dimensions).
 
 
 import acm.program.CommandLineProgram;
-public class Problem5 extends CommandLineProgram{
+public class Problem4 extends CommandLineProgram{
 
     public void run(){
         int[][]right={{1,2,3},{4,5,6},{7,8,9}};
@@ -44,6 +51,6 @@ public class Problem5 extends CommandLineProgram{
     }
 
     public static void main(String[] args) {
-        new Problem5().start(args);
+        new Problem4().start(args);
     }
 }
