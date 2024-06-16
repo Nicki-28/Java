@@ -11,4 +11,4 @@ These exercises cover introductory and fundamental OOP concepts such as classes,
 ## Table of Contents 
 
 - POO1 = Draw a red filled rectangle in the center of the screen. Move this rectangle from left to right so that when it reaches one of the screen's edges, it "bounces" and starts moving in the opposite direction.
-- P002 =
+- P002 = What is requested is a method such that, given a string and an integer, it returns the corresponding encrypted string obtained by encrypting the initial string using the integer as the distance. (Caesar Cipher)
