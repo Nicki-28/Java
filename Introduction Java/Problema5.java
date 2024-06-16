@@ -1,6 +1,11 @@
+//DESCRIPTION
+
+//Design and implement a method such that, as an input parameter, it receives a string str and as a result, returns the string with the first and last characters of str removed.
+
+
 import acm.program.CommandLineProgram;
 
-public class Problema6 extends CommandLineProgram {
+public class Problema5 extends CommandLineProgram {
 
     public void run(){
         String str= readLine("Introduce una cadena de caracteres:");
@@ -22,6 +27,6 @@ public class Problema6 extends CommandLineProgram {
         return new_word;
     }
     public static void main(String[] args) {
-        new Problema6().start(args);
+        new Problema5().start(args);
     }
 }
