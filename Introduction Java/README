@@ -4,7 +4,24 @@ This folder contains a collection of introductory Java exercises designed to bui
 (Each exercise is contained in its own directory with a brief description of the problem)
 
 # Key Features
-- **Basic Syntax and Operators**: Exercises focusing on Java syntax, operators, and basic input/output operations.
-- **Control Structures**: Problems that require the use of loops, conditionals, and switch statements.
-- **Arrays and Strings**: Tasks involving array manipulation, string handling, and common operations.
+- Basic Syntax and Operators: Exercises focusing on Java syntax, operators, and basic input/output operations.
+- Control Structures: Problems that require the use of loops, conditionals, and switch statements.
+- Arrays and Strings: Tasks involving array manipulation, string handling, and common operations.
 
+# Table of contents
+
+- Problem 1 = Ask the user for an integer greater than 1 and, in response, indicate whether the given integer is perfect or not. If the entered number is not greater than 1, an error message will be displayed.
+A number is perfect if it is the sum of all its divisors (except itself).
+
+- Problem 2 = Define a function that returns the maximum element of an array of integers that has at least one element.
+
+- Problem 3 = As an input parameter, receive an array of characters and as a result, return the array consisting of the same elements and in the same order as the original array except for the first and last elements.
+
+- Problem 4 = Design and implement a method to multiply integer matrices. The method will receive two matrices as parameters and return another matrix as a result. That is:
+
+    - Simplifications and hints:
+
+  Within the function, you can assume that the matrices are of the correct dimensions (the number of columns in the left matrix must match the number of rows in the right matrix).
+  Create a main program that creates a pair of constant matrices (ensure that they are of the correct dimensions).
+
+- Problem 5 = Design and implement a method such that, as an input parameter, it receives a string str and as a result, returns the string with the first and last characters of str removed.
