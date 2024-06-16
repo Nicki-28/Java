@@ -1,6 +1,13 @@
+//DESCRIPTION
+
+//An acronym consists of taking the initial letters of a text, converting them to uppercase, and separating them by dots. For example, "Escuela Politécnica Superior" is converted to "E.P.S.".
+
+//What is requested is a method that, given a line of text, converts it into an acronym
+
 import acm.program.CommandLineProgram;
 import java.util.StringTokenizer;
-public class POO5 extends CommandLineProgram{
+
+public class POO4 extends CommandLineProgram{
 
     public void run(){
         String line= readLine("Introduce lo que quieras convertir en acrónimo: ");
@@ -25,6 +32,6 @@ public class POO5 extends CommandLineProgram{
         return acronym ;
     }
     public static void main(String[] args) {
-        new POO5().start(args);
+        new POO4().start(args);
     }
 }
