@@ -1,6 +1,11 @@
+//DESCRIPTION
+
+//As an input parameter, receive an array of characters and as a result, return the array consisting of the same elements and in the same order as the original array except for the first and last elements.
+
+
 import acm.program.CommandLineProgram;
 
-public class Problema3 extends CommandLineProgram {
+public class Problem3 extends CommandLineProgram {
 
     public void run() {
         char[] chars = new char[]{'a', 'b', 'c', 'd', 'e'};
@@ -31,6 +36,6 @@ public class Problema3 extends CommandLineProgram {
     }
 
     public static void main(String[] args) {
-        new Problema3().start(args);
+        new Problem3().start(args);
     }
 }
