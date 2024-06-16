@@ -1,11 +1,16 @@
+//DESCRIPTION
+
+//Define a function that returns the maximum element of an array of integers that has at least one element.
+
 
 import acm.program.CommandLineProgram;
 
-public class Problema2 extends CommandLineProgram {
+public class Problem2 extends CommandLineProgram {
     public void run () {
+        // this can be change to expect an input from the user
         int[] nums = new int[]{4, 12, -5, 3};
         int max = max(nums);
-        println("El resultado es " + max);
+        println("The result is " + max);
     }
 
     public int max(int[] nums) {
