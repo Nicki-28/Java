@@ -12,51 +12,49 @@ import acm.graphics.GRect;
 import acm.program.GraphicsProgram;
 import java.awt.Color;
 
-public class POO1 extends GraphicsProgram{
+public class POO1 extends GraphicsProgram {
 
-    public double TIMEOUT= 50.0; //50 milisegundos
-    public double WIDTH= 150.0;
-    public double HEIGHT= 80.0;
+    public double TIMEOUT = 50.0; // 50 milliseconds
+    public double WIDTH = 150.0;
+    public double HEIGHT = 80.0;
 
-    public void run(){
+    public void run() {
 
-        //Escribir un rectángulo pintado de rojo en el centro de la pantalla
-        double x= (getWidth()-WIDTH)/2.0; //canvasWidth-rectWidth
-        double y= (getHeight()-HEIGHT)/2.0; // canvasHeight-rectHeight
+        // Draw a red filled rectangle in the center of the screen
+        double x = (getWidth() - WIDTH) / 2.0; // canvasWidth - rectWidth
+        double y = (getHeight() - HEIGHT) / 2.0; // canvasHeight - rectHeight
 
-        GRect rect=new GRect(x,y,WIDTH,HEIGHT);
+        GRect rect = new GRect(x, y, WIDTH, HEIGHT);
         rect.setFilled(true);
         rect.setFillColor(Color.RED);
         add(rect);
 
-        //Mover de izq a derecha cuando llegue a extremos rebotar hacia el otro lado.
+        // Move from left to right, bounce to the other side when reaching the edges
 
+        double limitWidth = getWidth() - WIDTH;
+        double moveRight = 5.0; // pixels to move right
+        double moveLeft = -5.0; // pixels to move left
 
-        double limitwidth= getWidth()-WIDTH;
+        while (true) {
 
-        double i=5.0;//pixeles que se agregan para que se mueva derecha
-        double j=-5.0; //pixeles que se agregan para que se mueva izquierda
-
-        while(true){
-
-            //mueve a la derecha
-            while(x+i<=limitwidth) {
-                rect.move(i, 0);
-                x += i;
+            // move to the right
+            while (x + moveRight <= limitWidth) {
+                rect.move(moveRight, 0);
+                x += moveRight;
                 pause(TIMEOUT);
             }
 
-            //mueve a la izquierda
-            while(x+j>=0){
-                    rect.move(j,0);
-                    x+=j;
-                    pause(TIMEOUT);
+            // move to the left
+            while (x + moveLeft >= 0) {
+                rect.move(moveLeft, 0);
+                x += moveLeft;
+                pause(TIMEOUT);
             }
         }
-
-
     }
+
     public static void main(String[] args) {
         new POO1().start(args);
     }
 }
+
