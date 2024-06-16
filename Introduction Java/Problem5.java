@@ -5,7 +5,7 @@
 
 import acm.program.CommandLineProgram;
 
-public class Problema5 extends CommandLineProgram {
+public class Problem5 extends CommandLineProgram {
 
     public void run(){
         String str= readLine("Introduce una cadena de caracteres:");
@@ -27,6 +27,6 @@ public class Problema5 extends CommandLineProgram {
         return new_word;
     }
     public static void main(String[] args) {
-        new Problema5().start(args);
+        new Problem5().start(args);
     }
 }
