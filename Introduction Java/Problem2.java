@@ -25,7 +25,7 @@ public class Problem2 extends CommandLineProgram {
         return maximo;
     }
     public static void main(String[]args){
-        new Problema2().start(args);
+        new Problema().start(args);
     }
 }
 /* It is correct because the statement indicates that there is at least one element inside the array.
