@@ -1,5 +1,8 @@
+
+
+
 import acm.program.CommandLineProgram;
-public class Problema5 extends CommandLineProgram{
+public class Problem5 extends CommandLineProgram{
 
     public void run(){
         int[][]right={{1,2,3},{4,5,6},{7,8,9}};
@@ -41,6 +44,6 @@ public class Problema5 extends CommandLineProgram{
     }
 
     public static void main(String[] args) {
-        new Problema5().start(args);
+        new Problem5().start(args);
     }
 }
