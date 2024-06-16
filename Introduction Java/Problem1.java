@@ -1,18 +1,24 @@
+//DESCRIPTION
+
+// Ask the user for an integer greater than 1 and, in response, indicate whether the given integer is perfect or not. If the entered number is not greater than 1, an error message will be displayed.
+//A number is perfect if it is the sum of all its divisors (except itself).
+
+
 import acm.program.CommandLineProgram;
 
 public class Problema1 extends CommandLineProgram {
 
     public void run(){
         int n;
-        n=readInt("Inserta un entero mayor a 1:");
+        n=readInt("Introduce a number greater than 1:");
 
         if(n<=1){
             println("Error");
         }else{
             if(isPerfect(n)) {
-                println("Es perfecto");
+                println("Is perfect");
             }else{
-                println("No es perfecto");
+                println("Is not perfect");
             }
         }
     }
