@@ -1,0 +1,14 @@
+# Description
+
+This repository contains a collection of Java Object Oriented Programming (OOP) or (P00 in spanish) exercises that I completed as part of my college coursework. 
+These exercises cover introductory and fundamental OOP concepts such as classes, inheritance, polymorphism, encapsulation, and abstraction.
+
+## Prerequisites
+
+- Java Development Kit (JDK) 8 or higher
+- IntelliJ IDEA or Eclipse IDE (optional)
+
+## Table of Contents 
+
+- POO1 = Draw a red filled rectangle in the center of the screen. Move this rectangle from left to right so that when it reaches one of the screen's edges, it "bounces" and starts moving in the opposite direction.
+- P002 =
