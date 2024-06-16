@@ -1,6 +1,8 @@
 # Description 
 This folder contains a collection of introductory Java exercises designed to build a solid foundation in Java programming. These exercises cover basic to intermediate concepts and are aimed at reinforcing understanding through practical implementation.
 
+(Each exercise is contained in its own directory with a brief description of the problem)
+
 # Key Features
 - **Basic Syntax and Operators**: Exercises focusing on Java syntax, operators, and basic input/output operations.
 - **Control Structures**: Problems that require the use of loops, conditionals, and switch statements.
